@@ -83,6 +83,8 @@ export class DeltaExchangeUnauthenticatedClient {
         switch (resolution) {
             case Resolution._1m:
                 return 1
+            case Resolution._3m:
+                return 3
             case Resolution._5m:
                 return 5
             case Resolution._15m:
